@@ -1,0 +1,11 @@
+interface:
+  display_name: "Bigmind Revenue Review"
+  short_description: "Research accounts and review revenue risk"
+  default_prompt: "Use $review-revenue to identify the deals most at risk this quarter and explain why."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "bigmind"
+      description: "Access authorized Bigmind CRM, pipeline, meetings, email, signals, and company knowledge."
+      transport: "streamable_http"
+      url: "https://api.bigmind.ai/mcp"

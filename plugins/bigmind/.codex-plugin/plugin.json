@@ -1,0 +1,42 @@
+{
+  "name": "bigmind",
+  "version": "1.0.0",
+  "description": "Sales context and workflows powered by Bigmind meetings, CRM, pipeline, company knowledge, Lists, signals, and coaching resources.",
+  "author": {
+    "name": "Bigmind",
+    "url": "https://bigmind.ai"
+  },
+  "homepage": "https://bigmind.ai",
+  "repository": "https://github.com/bigmindai/ext-plugins",
+  "keywords": [
+    "sales",
+    "crm",
+    "meetings",
+    "revenue",
+    "outreach"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bigmind",
+    "shortDescription": "Sales context and workflows",
+    "longDescription": "Prepare for meetings, review revenue risk, configure conversation intelligence, and build researched outreach Lists using authorized Bigmind context.",
+    "developerName": "Bigmind",
+    "category": "Business",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://bigmind.ai",
+    "privacyPolicyURL": "https://bigmind.ai/privacy",
+    "termsOfServiceURL": "https://bigmind.ai/terms",
+    "defaultPrompt": [
+      "Prepare me for my customer meetings next week.",
+      "Identify the deals most at risk this quarter.",
+      "Build a researched outreach list for my target market."
+    ],
+    "brandColor": "#3B82F6",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

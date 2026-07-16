@@ -1,0 +1,20 @@
+{
+  "name": "bigmind-external",
+  "interface": {
+    "displayName": "Bigmind External"
+  },
+  "plugins": [
+    {
+      "name": "bigmind",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bigmind"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Business"
+    }
+  ]
+}

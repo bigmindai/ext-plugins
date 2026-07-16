@@ -1,0 +1,21 @@
+{
+  "name": "bigmind",
+  "displayName": "Bigmind",
+  "description": "Sales meeting, revenue intelligence, conversation analysis, and outreach workflows powered by Bigmind.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Bigmind",
+    "url": "https://bigmind.ai"
+  },
+  "homepage": "https://bigmind.ai",
+  "repository": "https://github.com/bigmindai/ext-plugins",
+  "keywords": [
+    "sales",
+    "crm",
+    "meetings",
+    "revenue",
+    "outreach"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

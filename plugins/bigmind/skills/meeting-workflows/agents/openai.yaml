@@ -1,0 +1,11 @@
+interface:
+  display_name: "Bigmind Meeting Workflows"
+  short_description: "Prepare, review, and follow up on sales meetings"
+  default_prompt: "Use $meeting-workflows to prepare me for my customer meetings next week."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "bigmind"
+      description: "Access authorized Bigmind meetings, CRM context, email, signals, company knowledge, tasks, and notes."
+      transport: "streamable_http"
+      url: "https://api.bigmind.ai/mcp"

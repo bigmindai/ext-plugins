@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bigmind": {
+      "type": "http",
+      "url": "https://api.bigmind.ai/mcp"
+    }
+  }
+}

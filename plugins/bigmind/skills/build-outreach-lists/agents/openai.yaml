@@ -1,0 +1,11 @@
+interface:
+  display_name: "Bigmind Outreach Lists"
+  short_description: "Build researched, campaign-ready account lists"
+  default_prompt: "Use $build-outreach-lists to build a researched account-outreach list for my target market."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "bigmind"
+      description: "Access authorized Bigmind Lists, CRM, pipeline, meetings, company knowledge, signals, and public company research."
+      transport: "streamable_http"
+      url: "https://api.bigmind.ai/mcp"

@@ -1,0 +1,11 @@
+interface:
+  display_name: "Bigmind Conversation Intelligence"
+  short_description: "Configure trackers, scorecards, and coaching resources"
+  default_prompt: "Use $configure-conversation-intelligence to create a tracker for competitor mentions."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "bigmind"
+      description: "Inspect and configure authorized Bigmind analysis, coaching, library, user, and team resources."
+      transport: "streamable_http"
+      url: "https://api.bigmind.ai/mcp"
