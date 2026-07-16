@@ -71,4 +71,6 @@ The current outreach workflow can prepare Lists and draft copy. It does not laun
 - Privacy: https://bigmind.ai/privacy
 - Terms: https://bigmind.ai/terms
 
-No open-source license has been selected for this repository yet. Add the approved company license before public release.
+## License
+
+This repository is licensed under the [MIT License](LICENSE).

@@ -9,6 +9,7 @@
   },
   "homepage": "https://bigmind.ai",
   "repository": "https://github.com/bigmindai/ext-plugins",
+  "license": "MIT",
   "keywords": [
     "sales",
     "crm",
