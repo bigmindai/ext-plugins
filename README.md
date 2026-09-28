@@ -1,6 +1,6 @@
 # Bigmind external plugins
 
-Public plugin packages for using Bigmind with Claude Code, Claude Cowork, ChatGPT, and Codex.
+Public plugin packages for using Bigmind with Claude Code, Claude Cowork, ChatGPT, Codex, and Cursor.
 
 ## Bigmind plugin
 
@@ -8,6 +8,7 @@ The shared plugin lives in [`plugins/bigmind`](plugins/bigmind). It contains one
 
 - `.claude-plugin/plugin.json` for Claude Code and Cowork
 - `.codex-plugin/plugin.json` for ChatGPT and Codex
+- `.cursor-plugin/plugin.json` for Cursor, indexed by the repository-root `.cursor-plugin/marketplace.json`
 - `.mcp.json` for the remote Bigmind MCP server
 - `skills/` for shared workflows used by both platforms
 
@@ -27,6 +28,8 @@ Included skills:
 - Browser-based OAuth authorization when the MCP connection is first used
 
 Bigmind enforces the connected user's workspace permissions. Installing this plugin does not grant additional access.
+
+During OAuth, select the intended workspace and review **Tool access**. Core tools include meeting and pipeline reads, tasks, notes, and documents. To create or edit Lists, enable **Advanced → Lists → Read & write**. Other optional workflows need their corresponding tool groups. If a tool is missing from an existing connection, reconnect with the required access and refresh the client's tool inventory. Installing a skill alone does not enable its tools.
 
 ## Test with Claude
 
@@ -57,6 +60,14 @@ codex plugin marketplace add bigmindai/ext-plugins
 ```
 
 Then install the `bigmind` plugin from the `bigmind-external` marketplace in the ChatGPT desktop app and start a new task.
+
+## Use with Cursor
+
+The repository-root `.cursor-plugin/marketplace.json` points to `plugins/bigmind`. Its Cursor manifest uses the shared `skills/` directory and `.mcp.json`, so the platform packages stay in sync.
+
+For local testing, import the plugin directory using Cursor’s local plugin workflow, then confirm the four skills and Bigmind MCP server appear. Authenticate through OAuth, select a workspace, and enable the tool groups required by your workflow. Marketplace availability requires review and approval.
+
+Try asking: “Prepare me for my next customer meeting using past conversations and open questions,” or “What did we agree with this customer last time?”
 
 ## Data and action boundaries
 

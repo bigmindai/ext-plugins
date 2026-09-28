@@ -1,0 +1,21 @@
+{
+  "name": "bigmind",
+  "version": "1.0.0",
+  "description": "Bring meeting memory, customer context, company knowledge, and sales workflows into your assistant with Bigmind.",
+  "author": {
+    "name": "Bigmind"
+  },
+  "homepage": "https://bigmind.ai",
+  "repository": "https://github.com/bigmindai/ext-plugins",
+  "license": "MIT",
+  "keywords": [
+    "meetings",
+    "crm",
+    "customer-context",
+    "sales",
+    "knowledge"
+  ],
+  "logo": "assets/icon.png",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

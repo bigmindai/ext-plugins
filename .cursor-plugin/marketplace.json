@@ -1,0 +1,16 @@
+{
+  "name": "bigmind-external",
+  "owner": {
+    "name": "Bigmind"
+  },
+  "metadata": {
+    "description": "Bigmind customer context and meeting workflows."
+  },
+  "plugins": [
+    {
+      "name": "bigmind",
+      "source": "plugins/bigmind",
+      "description": "Bring meeting memory, customer context, company knowledge, and sales workflows into your assistant with Bigmind."
+    }
+  ]
+}

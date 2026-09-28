@@ -2,3 +2,7 @@
 *.zip
 .env
 .env.*
+
+# Local submission audits, reviewer identities, test runs, and private setup notes.
+/review/
+/chatgpt-app-submission.json
