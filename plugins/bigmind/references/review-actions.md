@@ -24,7 +24,7 @@ For interactive review use `draftOutreachCampaignSequences`, with the exact elig
 
 `submitOutreachCampaignSequences` is also a model-callable mutation. Use it directly only when the user explicitly requests submission of a resolved sequence to a resolved active campaign and a review-card interaction is not required by their request or client permissions. Do not call it after opening a card to bypass confirmation or as an automatic fallback when the card is canceled/unavailable. Never submit both paths for the same action.
 
-Distinguish accepted/pending enrollment from scheduling and delivery. Verify receipt and `listOutreachCampaignSuppliedSequences`; preserve submissionId on an identical retry. A user-edited sequence is the authoritative submitted content.
+Submission schedules outreach for review and approval in the Bigmind UI before it can be sent. Neither direct submission nor Add to campaign approves or sends the messages. Distinguish accepted/pending enrollment and scheduled outreach awaiting approval from approved or delivered messages. Verify receipt and `listOutreachCampaignSuppliedSequences`; preserve submissionId on an identical retry. A user-edited sequence is the authoritative submitted content.
 
 ## Client without MCP Apps
 

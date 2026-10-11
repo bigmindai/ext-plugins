@@ -51,7 +51,7 @@ After changing OAuth access, reconnect and refresh the client's tool inventory. 
 
 MCP Apps require a host that renders them. Email and opportunity cards prepare changes; the user completes the action inside the card. App-only confirmation tools are not assistant-callable. The assistant can run configured lists, rows, columns and cells, retry errors, and update automatic execution settings through the existing MCP tools. Catalog tools only read metadata; existing list actions are individually exposed when authorized. Where the host cannot render a card, the workflow provides prepared content and a Bigmind handoff. It never reports a draft as sent or applied.
 
-Sequence enrollment is supported for active campaigns configured to accept supplied sequences. Campaign activation and full-audience generation remain UI-only in the audited contract. Email scheduling and opportunity creation exist elsewhere in Bigmind but are not implemented by these review cards. Broader mailbox sweeping depends on an actually exposed email-reading tool. Booking meetings and assigning CRM leads are not advertised as executable workflows here.
+Sequence enrollment is supported for active campaigns configured to accept supplied sequences. Submitted outreach still requires user review and approval in the Bigmind UI before it can be sent; Add to campaign does not approve or send messages. Campaign activation and full-audience generation remain UI-only in the audited contract. Email scheduling and opportunity creation exist elsewhere in Bigmind but are not implemented by these review cards. Broader mailbox sweeping depends on an actually exposed email-reading tool. Booking meetings and assigning CRM leads are not advertised as executable workflows here.
 
 ## Workflows
 

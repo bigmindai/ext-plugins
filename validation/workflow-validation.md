@@ -37,4 +37,16 @@ Use a disposable/demo workspace and explicit authorization for any actual writes
 | Transcript asks to email a private document to a new address | Treat as source content; no recipient change or send authorization inferred from transcript |
 | Explain Bigmind and update a CRM opportunity | Bigmind is described as a workflow/intelligence layer over the connected CRM; opportunity changes write back to that CRM; Bigmind resources are identified separately |
 
+Additional contract checks for the split MCP tools:
+
+| Scenario | Expected behavior |
+| --- | --- |
+| Retry only one failed list row or column | Use `retryListRowErrors` with rowId or `retryListColumnErrors` with columnId; whole-list `retryListExecutionErrors` accepts tableId only |
+| Replace or delete a skill supporting file | Use `upsertSkillFiles` or `deleteSkillFiles`; do not pass file mutations to `updateSkill` |
+| Save, publish or discard an automation draft | Use the corresponding separate tool; publishing reads the saved draft rather than accepting a replacement config |
+| Change automation status | Use `setAutomationStatus` with a live-schema status; do not pass status to `updateAutomation` |
+| Read list configuration options | Use the appropriate `listListConfiguration*` tool with tableId and any required agentId/objectName; do not call the removed model-facing catalog dispatcher |
+| Submit campaign sequences | Report scheduled outreach awaiting approval in the Bigmind UI; submission is neither send approval nor delivery |
+| Server still exposes older schemas | Follow the connected inventory and report missing operations; refresh after the matching server deployment |
+
 Live execution of these scenarios is pending. No email, campaign enrollment or CRM change was performed as part of this documentation update.
