@@ -1,9 +1,11 @@
 # Bigmind
 
-Bigmind brings authorized sales context and workflows into Claude Code, Claude Cowork, ChatGPT, Codex, and Cursor through the Bigmind MCP server.
+Prepare sales calls, send follow-ups, run outreach and keep your CRM up to date with Bigmind.
 
-The plugin includes four shared skills for meeting workflows, revenue review, conversation-intelligence configuration, and outreach Lists. Users authenticate with Bigmind through OAuth, and all reads and writes remain subject to their Bigmind workspace permissions.
+Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Works with HubSpot, Salesforce or your connected CRM. Bigmind adds workflows and intelligence to your existing CRM; supported opportunity updates write back to that CRM.
 
-For Lists workflows, select **Tool access → Advanced → Lists → Read & write** during OAuth. Core access alone does not expose list creation. Reconnect and refresh the client’s tools if changing access on an existing connection.
+Use `call-prep`, `call-summary`, `draft-outreach`, `deal-review`, `close-plan`, `pipeline-review` and the other named skills to turn evidence into action. Native MCP review cards support email sending, sequence enrollment and opportunity stage, amount and close-date changes, with user review and verified action status.
 
-See the [repository README](../../README.md) for installation, testing, support, and policy links.
+Authenticate through OAuth and enable the tool groups your workflow needs. MCP Apps depend on client support; missing tools require an appropriate connection or Bigmind handoff. A prepared card is not a completed action.
+
+See the [repository README](../../README.md) for the full workflow catalog, installation, access requirements, capability boundaries and validation.

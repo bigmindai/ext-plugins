@@ -1,7 +1,7 @@
 {
   "name": "bigmind",
-  "version": "1.0.0",
-  "description": "Sales context and workflows powered by Bigmind meetings, CRM, pipeline, company knowledge, Lists, signals, and coaching resources.",
+  "version": "1.1.0",
+  "description": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in supported MCP clients, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
   "author": {
     "name": "Bigmind",
     "url": "https://bigmind.ai"
@@ -20,8 +20,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bigmind",
-    "shortDescription": "Sales context and workflows",
-    "longDescription": "Prepare for meetings, review revenue risk, configure conversation intelligence, and build researched outreach Lists using authorized Bigmind context.",
+    "shortDescription": "Prepare sales calls, send follow-ups, run outreach and keep your CRM up to date with Bigmind.",
+    "longDescription": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in supported MCP clients, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
     "developerName": "Bigmind",
     "category": "Business",
     "capabilities": [
@@ -32,9 +32,9 @@
     "privacyPolicyURL": "https://bigmind.ai/privacy",
     "termsOfServiceURL": "https://bigmind.ai/terms",
     "defaultPrompt": [
-      "Prepare me for my customer meetings next week.",
-      "Identify the deals most at risk this quarter.",
-      "Build a researched outreach list for my target market."
+      "Summarize my last customer call and prepare the follow-up email and opportunity changes for review.",
+      "Build a researched prospect List and prepare sequences for my active campaign.",
+      "Review my pipeline and identify the next action for each at-risk deal."
     ],
     "brandColor": "#3B82F6",
     "composerIcon": "./assets/icon.png",

@@ -1,7 +1,7 @@
 {
   "name": "bigmind",
-  "version": "1.0.0",
-  "description": "Bring meeting memory, customer context, company knowledge, and sales workflows into your assistant with Bigmind.",
+  "version": "1.1.0",
+  "description": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in supported MCP clients, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
   "author": {
     "name": "Bigmind"
   },

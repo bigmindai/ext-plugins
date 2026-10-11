@@ -1,8 +1,8 @@
 {
   "name": "bigmind",
   "displayName": "Bigmind",
-  "description": "Sales meeting, revenue intelligence, conversation analysis, and outreach workflows powered by Bigmind.",
-  "version": "1.0.0",
+  "description": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in Claude, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
+  "version": "1.1.0",
   "author": {
     "name": "Bigmind",
     "url": "https://bigmind.ai"

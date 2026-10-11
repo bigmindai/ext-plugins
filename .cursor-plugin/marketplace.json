@@ -4,13 +4,13 @@
     "name": "Bigmind"
   },
   "metadata": {
-    "description": "Bigmind customer context and meeting workflows."
+    "description": "Prepare sales calls, send follow-ups, run outreach and keep your CRM up to date with Bigmind."
   },
   "plugins": [
     {
       "name": "bigmind",
       "source": "plugins/bigmind",
-      "description": "Bring meeting memory, customer context, company knowledge, and sales workflows into your assistant with Bigmind."
+      "description": "Prepare sales calls, send follow-ups, run outreach and keep your CRM up to date with Bigmind."
     }
   ]
 }
