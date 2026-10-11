@@ -18,5 +18,6 @@
     "outreach"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "privacyPolicyUrl": "https://bigmind.ai/privacy"
 }
