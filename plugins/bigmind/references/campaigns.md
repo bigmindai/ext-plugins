@@ -2,9 +2,15 @@
 
 ## Audience
 
-Use `listLists`, `getListSummary`, `getListColumns` and targeted rows to resolve an existing audience. Create a requested account List with `createList` template `account-outreach`. Use actual column IDs for writes. Use `addListTargetablePeople` and related people tools rather than manually replacing people arrays. Imports have preview/import tools; inspect mappings and duplicates before import.
+Use `listLists`, `getListSummary`, `getListColumns` and targeted rows to resolve an existing audience. Create a requested account List with `createList` template `account-outreach`. Use actual column IDs for writes. Use `addListTargetablePeople` and related people tools rather than manually replacing people arrays. Imports have preview/import tools; inspect mappings and duplicates before import. `importListCSV`, `importListCSVRows` and `importListJSONL` consume the uploaded file, so a subsequent import attempt requires a new upload. Verify whether the first import succeeded before retrying to avoid duplicate lists or rows. Matching CSV imports can overwrite existing cells; keep campaign audience changes off unless requested.
 
-Research with CRM history and `researchCompanyByDomain`; use connected enrichment actions only when available and relevant. `listListEnrichmentTools`, `listListColumnActions` and `runListRow` support configured research execution. Provider credits may be consumed; keep execution within the requested rows and research scope. Never interpret a queued row as completed research; inspect resulting cells/state. Preserve sources and contactability gaps.
+Research with CRM history and `researchCompanyByDomain`; use individually exposed connected enrichment tools only when available and relevant. `listListEnrichmentTools` and `listListColumnActions` read catalog metadata and schemas; they do not execute providers or actions. Provider calls may consume credits; keep them within the requested people, rows and research scope. Use `enrichListTargetablePersonField` or its bounded batch counterpart when exposed for missing people fields.
+
+`runList`, `runListRow`, `runListColumn` and `runListCell` remain assistant-callable for configured list workflows. Choose the requested scope, use `retryListExecutionErrors` for inspected failures, and change `autoRunNewRows` with `updateListExecutionSettings` only when requested. Queued work is not completed research: read execution status and resulting cells before reporting completion. Preserve sources and contactability gaps.
+
+Existing underlying actions are also exposed individually when authorized, including `planEmailOutreach`, `slack_notifySlackChannel` and `slack_notifySlackUser`. Their live schemas take an existing matching `listContext` and resolved `inputs`; direct calls do not evaluate column templates, run dependencies, or mark list cells completed. Use the existing list runners for saved column mappings and list results. Do not execute both a direct action and its list run for the same requested effect.
+
+Before `upsertPeopleEnrichmentStrategy` or `configureListPeopleFieldEnrichment`, read the current strategy/column and resolve the requested change. An existing strategy ID updates its saved settings; field configuration can overwrite bindings, and null can remove enrichment or fallback settings. Preserve unrelated configuration.
 
 ## Campaign setup and preview
 
