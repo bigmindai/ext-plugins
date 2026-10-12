@@ -5,7 +5,7 @@ description: "Review and apply requested connected CRM opportunity stage, amount
 
 # Update Opportunity
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [review actions](references/review-actions.md).
 
 Resolve the exact opportunity and current values. For stage changes use the live CRM schema's stored value. Explain evidence for suggestions; for an explicit user-specified change prepare that exact change without inventing extra edits.
 

@@ -5,7 +5,7 @@ description: "Build, import, enrich and qualify a Bigmind prospect List with tar
 
 # Build Outreach List
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [campaigns](../../references/campaigns.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [campaigns](references/campaigns.md).
 
 Resolve audience criteria, exclusions, destination and research depth. Inspect existing Lists before modification; for a new account audience use the account-outreach template. Preview imports, map actual columns and deduplicate verified domains/people.
 

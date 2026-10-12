@@ -5,7 +5,7 @@ description: "Qualify inbound prospects or a supplied lead backlog against the w
 
 # Lead Triage
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [campaigns](../../references/campaigns.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [campaigns](references/campaigns.md), [review actions](references/review-actions.md).
 
 Resolve the supplied leads, CRM records or List rows and discover the actual available fields. Read the approved ICP and enrich only missing qualification facts within scope. Deduplicate known accounts/people and distinguish unknown data from poor fit.
 

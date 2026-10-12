@@ -5,7 +5,7 @@ description: "Capture customer interaction outcomes as Bigmind notes and tasks l
 
 # Log Activity
 
-Read [the workflow contract](../../references/operating-contract.md) before execution.
+Read [the workflow contract](references/operating-contract.md) before execution.
 
 Resolve the account/contact/deal/lead and source interaction. Read relevant existing notes/tasks to avoid duplicate logging. Use `rememberNoteOnAccount`, `rememberNoteOnContact`, `rememberNoteOnDeal` or `rememberNoteOnLead` for requested notes, and `createTodo` for requested commitments.
 

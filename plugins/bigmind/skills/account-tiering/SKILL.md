@@ -5,7 +5,7 @@ description: "Score and tier a defined account List or book using transparent IC
 
 # Account Tiering
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [campaigns](../../references/campaigns.md), [pipeline and frameworks](../../references/pipeline-and-frameworks.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [campaigns](references/campaigns.md), [pipeline and frameworks](references/pipeline-and-frameworks.md).
 
 Resolve the complete requested List/view or explicitly bounded account cohort. Use actual ICP requirements and a user-provided rubric; otherwise state a transparent proposed rubric. Inspect relevant engagement and signals without treating missing fields as zeros.
 

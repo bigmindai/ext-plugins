@@ -5,7 +5,7 @@ description: "Find evidence-backed expansion opportunities within Bigmind custom
 
 # Expansion Whitespace
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Establish what the account owns from accessible purchase/CRM data and read the approved product catalog. Use customer statements, existing relationships and real usage signals to identify additional products, teams or regions.
 

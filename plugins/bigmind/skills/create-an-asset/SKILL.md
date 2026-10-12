@@ -5,7 +5,7 @@ description: "Create a customer-specific business case, one-pager or leave-behin
 
 # Create An Asset
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Resolve audience, purpose and desired format. Retrieve customer goals plus approved product, case-study and commercial information. Inspect a matching document template before generating saved content.
 

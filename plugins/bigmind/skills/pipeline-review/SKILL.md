@@ -5,7 +5,7 @@ description: "Review a scoped Bigmind pipeline for coverage, material risks and 
 
 # Pipeline Review
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Discover the intended pipeline and scope, use grouped totals and paginate deals as needed. Keep pipeline selection, stages, owner filters and currency explicit. Inspect warnings and framework coverage; deepen research only on deals driving the conclusion.
 

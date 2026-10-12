@@ -5,7 +5,7 @@ description: "Configure Bigmind trackers, frameworks, scorecards and coaching re
 
 # Configure Revenue Intelligence
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [pipeline and frameworks](../../references/pipeline-and-frameworks.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [pipeline and frameworks](references/pipeline-and-frameworks.md).
 
 Classify the request as detection, qualification methodology or coaching. Inventory existing resources and use the correct create/update path. For tracker details read [tracker recipes](references/tracker-recipes.md); for scorecards, frameworks and coaching read [configuration recipes](references/coaching-and-analysis-recipes.md).
 

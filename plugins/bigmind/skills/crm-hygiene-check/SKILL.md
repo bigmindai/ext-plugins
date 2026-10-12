@@ -5,7 +5,7 @@ description: "Audit a scoped Bigmind pipeline for missing or inconsistent values
 
 # Crm Hygiene Check
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Retrieve the scoped pipeline with complete pagination or disclose the subset. Check available amount, close date, next step, stakeholder coverage and dated activity against the workspace's actual requirements. Distinguish blank from not returned.
 

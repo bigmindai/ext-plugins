@@ -5,7 +5,7 @@ description: "Prepare a scoped revenue forecast narrative from connected CRM opp
 
 # Forecast
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Resolve period, pipeline, owner scope and currency. Retrieve open and closed-won records required for the forecast. Prefer native forecast-category fields when available; otherwise obtain or label a stage-to-bucket mapping. State whether bucket totals are exclusive or cumulative to avoid double counting.
 

@@ -5,7 +5,7 @@ description: "Guide post-signup Bigmind onboarding: connect a CRM, install the C
 
 # Setup
 
-Read [the workflow contract](../../references/operating-contract.md) before execution.
+Read [the workflow contract](references/operating-contract.md) before execution.
 
 Bigmind is a workflow and intelligence layer over the user's existing CRM. Guide new users through the connections below, skipping steps already completed. Establish whether they are setting up just themselves or a team, and which CRM and email/calendar provider they use; ask only for missing information that changes the next step.
 

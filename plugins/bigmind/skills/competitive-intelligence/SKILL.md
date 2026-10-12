@@ -5,7 +5,7 @@ description: "Analyze a competitor in a deal or across a dated cohort and create
 
 # Competitive Intelligence
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 For a named deal combine its actual competitive statements with approved positioning and sourced public research. For a portfolio question define the cohort and retrieve tracker-backed conversations plus verified deal outcomes.
 

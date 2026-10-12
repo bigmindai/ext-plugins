@@ -4,6 +4,8 @@ Source contract: monorepo `dc5f7c754`, plus MCP review updates verified against 
 
 ## Static checks
 
+- `python3 scripts/validate-isolated-skills.py`: copy each skill into a standalone Claude-style mount and check all local reference links without the plugin root.
+
 - `python3 scripts/validate-plugin.py`: metadata, manifest version agreement, local reference/asset graph and marketplace paths.
 - Skill-creator `quick_validate.py` for each skill: skill naming/frontmatter.
 - `claude plugin validate ./plugins/bigmind`: Claude manifest validation.

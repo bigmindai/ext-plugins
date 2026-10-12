@@ -5,7 +5,7 @@ description: "Prepare a sales manager’s one-to-one with a named rep from Bigmi
 
 # Rep Context
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [knowledge and coaching](../../references/knowledge-and-coaching.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [knowledge and coaching](references/knowledge-and-coaching.md).
 
 Resolve the rep with `searchUsers`; retrieve their permitted pipeline scope, material warnings and relevant meetings/scorecards. Count activity only over the records and period actually available.
 

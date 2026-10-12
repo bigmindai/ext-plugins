@@ -5,7 +5,7 @@ description: "Review a connected CRM opportunity’s actual health, qualificatio
 
 # Deal Review
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Resolve the deal and current CRM state. Read its stored warnings and applicable framework assessment; investigate material unknowns with deal-linked activity and specific meeting evidence.
 

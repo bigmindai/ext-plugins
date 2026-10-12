@@ -5,7 +5,7 @@ description: "Find what is missing to advance or close a specific connected CRM 
 
 # Deal Advance Gap
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Resolve the deal, current framework findings and real stage exit criteria from available configuration or approved playbooks. If criteria are unavailable, label proposed criteria instead of claiming they are company policy.
 

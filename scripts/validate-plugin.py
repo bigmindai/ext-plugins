@@ -61,9 +61,15 @@ for file in [ROOT / 'README.md', *PLUGIN.rglob('*.md')]:
         if re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:', link) or link.startswith('#'):
             continue
         boundary = ROOT if file == ROOT / 'README.md' or file == PLUGIN / 'README.md' else PLUGIN
+        if file.is_relative_to(PLUGIN / 'skills'):
+            boundary = PLUGIN / 'skills' / file.relative_to(PLUGIN / 'skills').parts[0]
         referenced.add(local_target(file, link, boundary))
 for file in (PLUGIN / 'references').glob('*.md'):
-    check(file.resolve() in referenced, f'Unlinked shared guide: {file.name}')
+    for skill in skills:
+        bundled = skill.parent / 'references' / file.name
+        check(bundled.is_file() and not bundled.is_symlink(), f'{skill.parent.name}: missing regular bundled guide: {file.name}')
+        if bundled.is_file():
+            check(bundled.read_bytes() == file.read_bytes(), f'{skill.parent.name}: stale bundled guide: {file.name}; run scripts/sync-skill-references.py')
 for file in skills:
     check(file.resolve() in referenced, f'Skill missing from catalog: {file.parent.name}')
 

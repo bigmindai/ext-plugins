@@ -5,7 +5,7 @@ description: "Create or refresh a strategic Bigmind account plan with customer g
 
 # Account Plan
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Read current account/deal context, contacts, prior plan and customer-stated goals. Use approved product and ICP resources; identify expansion hypotheses only where evidence exists.
 

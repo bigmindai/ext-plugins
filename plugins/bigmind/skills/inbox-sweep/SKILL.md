@@ -5,7 +5,7 @@ description: "Triage accessible customer email or Bigmind Inbox work and prepare
 
 # Inbox Sweep
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [review actions](references/review-actions.md).
 
 Check the actual inventory. Use `queryUserEmail` only if exposed, for the authenticated user's mailbox, starting with a bounded overview and retrieving bodies for relevant messages. Its implementation alone does not guarantee MCP availability. Deal/account-linked email can be researched separately but is not a full mailbox sweep.
 

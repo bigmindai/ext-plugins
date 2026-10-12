@@ -5,7 +5,7 @@ description: "Build a Bigmind morning briefing from today’s customer meetings,
 
 # Daily Briefing
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Use an exact local day, `listMeetings`, `listInboxItems`, `listMyTodos` and the scoped pipeline view. Keep Bigmind's unified Inbox distinct from the user's email inbox. Retrieve detailed account/call evidence only for consequential meetings or risks.
 

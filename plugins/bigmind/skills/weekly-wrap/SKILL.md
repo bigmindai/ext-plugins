@@ -5,7 +5,7 @@ description: "Summarize a sales week’s outcomes, evidenced deal changes, custo
 
 # Weekly Wrap
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Resolve the exact week and owner scope. Gather scoped pipeline, meetings, tasks and relevant activity. Compare prior snapshots or dated changes for won, lost, advanced or slipped deals. Without history, provide current state and observed events, explicitly omitting unsupported deltas.
 

@@ -5,7 +5,7 @@ description: "Turn Bigmind deal and call evidence into a focused rep coaching pl
 
 # Coach Rep
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md).
 
 Resolve rep, permitted sessions/deals and the behavior to improve. Read existing scorecards, transcripts and framework gaps; distinguish observed behavior from speculation. Return concrete moments, what to practice and how progress will be assessed.
 

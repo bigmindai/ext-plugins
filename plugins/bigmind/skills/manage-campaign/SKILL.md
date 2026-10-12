@@ -5,7 +5,7 @@ description: "Configure, validate, preview and manage Bigmind outreach campaigns
 
 # Manage Campaign
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [campaigns](../../references/campaigns.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [campaigns](references/campaigns.md), [review actions](references/review-actions.md).
 
 Resolve the campaign or requested new campaign and audience. Read current state, setup options and allowed actions before mutation. Apply requested configuration and validate it; use only explicit bounded test rows for preview.
 

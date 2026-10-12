@@ -98,9 +98,11 @@ Names align with familiar sales jobs; each skill uses Bigmind evidence and platf
 | [`weekly-wrap`](plugins/bigmind/skills/weekly-wrap/SKILL.md) | Summarize a sales week’s outcomes, evidenced deal changes, customer commitments and next-week priorities. |
 | [`win-loss-review`](plugins/bigmind/skills/win-loss-review/SKILL.md) | Analyze a bounded set of closed deals and their Bigmind conversation evidence to explain wins, losses and improvements. |
 
-Shared execution contracts live in [`plugins/bigmind/references`](plugins/bigmind/references). Platform-sensitive action contracts were checked against monorepo commit `dc5f7c754` (October 11, 2026). Historical submission records under `review/` describe version 1.0.0 and are not current capability documentation.
+Canonical execution contracts live in [`plugins/bigmind/references`](plugins/bigmind/references). Platform-sensitive action contracts were checked against monorepo commit `dc5f7c754` (October 11, 2026). Historical submission records under `review/` describe version 1.0.0 and are not current capability documentation.
 
 ## Validation
+
+Claude can mount each skill independently. Every skill therefore includes regular copies of the shared guides in its own `references/` directory; runtime links must stay inside that skill. After editing canonical guides, run `python3 scripts/sync-skill-references.py` to refresh the bundled copies.
 
 Run `python3 scripts/validate-plugin.py` to check manifests, packaged references, skill metadata and asset paths. The skill-creator quick validator and Claude's plugin validator provide additional package checks. See [`validation/workflow-validation.md`](validation/workflow-validation.md) for behavioral scenarios and live acceptance work still needed.
 

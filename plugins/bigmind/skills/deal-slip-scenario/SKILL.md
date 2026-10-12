@@ -5,7 +5,7 @@ description: "Model how a named deal slipping, shrinking or being lost changes a
 
 # Deal Slip Scenario
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Establish the baseline with the same period, currency and category mapping used in the forecast. Read the selected deal's actual amount and bucket. Apply the user's scenario as a hypothetical, leaving records unchanged.
 

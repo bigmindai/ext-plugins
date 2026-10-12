@@ -5,7 +5,7 @@ description: "Process a completed customer call into a sourced recap, follow-up 
 
 # Call Summary
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [review actions](../../references/review-actions.md), [pipeline and frameworks](../../references/pipeline-and-frameworks.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [review actions](references/review-actions.md), [pipeline and frameworks](references/pipeline-and-frameworks.md).
 
 Resolve the exact meeting and session using `getMeetingById` and `getSessionsByMeetingId`. Read `getMeetingSummaryBySessionId`, notes and relevant transcript evidence; use `getCrmRecordsBySession` for associations and `listTodosBySession` to avoid duplicate follow-ups.
 

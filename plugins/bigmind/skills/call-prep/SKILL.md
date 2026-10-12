@@ -5,7 +5,7 @@ description: "Prepare for a specific upcoming customer call using Bigmind meetin
 
 # Call Prep
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md).
 
 Resolve the date/time in the user's timezone with `listMeetings`; use the meeting's attendees and CRM associations to select the right account/deal. Retrieve recent commitments and objections from direct session reads or focused activity research, then relevant opportunity, framework and Library context.
 

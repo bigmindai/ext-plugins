@@ -5,7 +5,7 @@ description: "Build a customer-evidenced business case and mutual action plan, t
 
 # Close Plan
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Read the opportunity, customer-stated pain/outcomes, prior proposals and procurement/security/legal commitments. Consult actual internal approval requirements and turnaround times when available.
 

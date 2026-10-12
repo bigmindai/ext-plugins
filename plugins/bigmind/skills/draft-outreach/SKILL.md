@@ -5,7 +5,7 @@ description: "Prepare a personalized Bigmind email or multi-touch outreach seque
 
 # Draft Outreach
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [review actions](../../references/review-actions.md), [campaigns](../../references/campaigns.md), [knowledge and coaching](../../references/knowledge-and-coaching.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [review actions](references/review-actions.md), [campaigns](references/campaigns.md), [knowledge and coaching](references/knowledge-and-coaching.md).
 
 Resolve audience, goal and destination from the request. Ground copy in real account/deal activity and approved positioning. For one email use `draftEmailToSend`; preserve a real replyContext for replies and use HTML. Unknown addresses may remain empty in the card.
 

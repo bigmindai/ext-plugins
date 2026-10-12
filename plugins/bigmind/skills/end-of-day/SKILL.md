@@ -5,7 +5,7 @@ description: "Close the sales day by reconciling recorded calls, open commitment
 
 # End Of Day
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [review actions](references/review-actions.md).
 
 Resolve today's meetings and their sessions, existing todos and open Inbox items. Identify missing follow-ups using actual evidence; do not duplicate tasks already recorded. Include tomorrow's meetings if available.
 

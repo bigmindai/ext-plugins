@@ -1,5 +1,5 @@
 {
-  "name": "bigmind",
+  "name": "app-6a58fc2ec0b88191b679879ecc2ce393",
   "version": "1.1.0",
   "description": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in supported MCP clients, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
   "author": {
@@ -20,10 +20,10 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bigmind",
-    "shortDescription": "Prepare sales calls, send follow-ups, run outreach and keep your CRM up to date with Bigmind.",
+    "shortDescription": "GTM agents",
     "longDescription": "Bigmind helps sales teams research accounts, prepare calls, summarize meetings, send follow-up emails, enroll prospects in outreach sequences, review deals and pipeline, and prepare forecasts. It brings together your CRM, email, calendar and customer conversations to identify risks and recommend next steps. Review emails, sequences and opportunity updates directly in supported MCP clients, then send, enroll or apply changes. Works with HubSpot, Salesforce or your connected CRM.",
     "developerName": "Bigmind",
-    "category": "Business",
+    "category": "Business & Operations",
     "capabilities": [
       "Read",
       "Write"
@@ -38,6 +38,7 @@
     ],
     "brandColor": "#3B82F6",
     "composerIcon": "./assets/icon.png",
-    "logo": "./assets/icon.png"
+    "logo": "./assets/icon.png",
+    "supportURL": "https://bigmind.ai/support"
   }
 }

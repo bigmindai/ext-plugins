@@ -5,7 +5,7 @@ description: "Research a company or prospect and assess fit using public sources
 
 # Account Research
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [campaigns](../../references/campaigns.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [campaigns](references/campaigns.md).
 
 Resolve the verified domain and existing CRM account. Combine `researchCompanyByDomain` with relevant private activity, opportunities and approved ICP/product documents. Use connected enrichment only for requested facts not already available.
 

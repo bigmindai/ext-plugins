@@ -5,7 +5,7 @@ description: "Map a connected CRM account or deal’s stakeholders, demonstrated
 
 # Stakeholder Map
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [review actions](references/review-actions.md).
 
 Use `listAccountContacts`, meeting participants and attributed activity to build the known people set. For a deal, distinguish account contacts from people evidenced in that deal. Read applicable qualification requirements where available.
 

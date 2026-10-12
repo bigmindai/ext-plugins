@@ -5,7 +5,7 @@ description: "Review a customer’s relationship health and prepare a Bigmind QB
 
 # Customer Health
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](../../references/pipeline-and-frameworks.md), [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [pipeline and frameworks](references/pipeline-and-frameworks.md), [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Resolve the account, current commercial relationship, account framework, recent meetings, open tasks and relevant signals. Separate relationship/conversation evidence from product usage, support or billing data; use the latter only when actually accessible.
 

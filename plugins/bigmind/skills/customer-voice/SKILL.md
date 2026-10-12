@@ -5,7 +5,7 @@ description: "Extract attributed customer quotes and themes from a defined Bigmi
 
 # Customer Voice
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md).
 
 Resolve topic, dates, account/persona scope and relevant trackers. Retrieve matching sessions or disclose a semantic-search sample. Verify verbatim quotes in transcripts/messages and separate customer speech from employee speech.
 

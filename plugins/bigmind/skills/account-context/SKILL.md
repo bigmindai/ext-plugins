@@ -5,7 +5,7 @@ description: "Assemble a current account brief from connected CRM, conversations
 
 # Account Context
 
-Read [the workflow contract](../../references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](../../references/knowledge-and-coaching.md), [review actions](../../references/review-actions.md).
+Read [the workflow contract](references/operating-contract.md) before execution. For this workflow, also read [knowledge and coaching](references/knowledge-and-coaching.md), [review actions](references/review-actions.md).
 
 Resolve the account, inspect opportunities and contacts, then use `searchAccountActivities` for specific open questions. Reuse sufficient existing evidence instead of querying every source. Include relevant notes, tasks and documents; investigate signals only when they change the answer.
 
